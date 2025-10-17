@@ -1,12 +1,12 @@
-# SonarSplat
+# sonarsplat
 
-This is the repository that contains source code for the [SonarSplat website](https://nerfies.github.io).
+This is the repository that contains source code for the [sonarsplat website](https://nerfies.github.io).
 
-If you find SonarSplat useful for your work please cite:
+If you find sonarsplat useful for your work please cite:
 ```
 @article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo and Sehturaman, Advaith},
-  title     = {SonarSplat},
+  author    = {Sethuraman, Advaith V},
+  title     = {sonarsplat},
   journal   = {ICCV},
   year      = {2021},
 }
