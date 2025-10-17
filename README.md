@@ -5,7 +5,7 @@ This is the repository that contains source code for the [sonarsplat website](ht
 If you find sonarsplat useful for your work please cite:
 ```
 @article{park2021nerfies
-  author    = {Sethuraman, Advaith V},
+  author    = {Sethuraman, Advaith V. and Rucker, Max and Bagoren, Onur and Kung, Pou-Chun and Amutha, Nibarkavi N.B. and Skinner, Katherine A.},
   title     = {sonarsplat},
   journal   = {ICCV},
   year      = {2021},
