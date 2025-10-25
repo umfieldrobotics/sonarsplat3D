@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>sonarsplat</title>
+  <title>SonarSplat</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
@@ -115,7 +115,7 @@
                 </a>
               </span>
               <!-- Code Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -123,9 +123,9 @@
                   </span>
                   <span>Code</span>
                   </a>
-              </span>
+              </span> -->
               <!-- Dataset Link. -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -145,10 +145,10 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
+      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
         <source src="./static/videos/teaser.mp4"
                 type="video/mp4">
-      </video>
+      </video> -->
       <h2 class="subtitle has-text-centered">
         <span class="dnerf">sonarsplat</span> enables novel view synthesis of imaging sonar via Gaussian splatting.
       </h2>
@@ -161,54 +161,54 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
+        <!-- <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/steve.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-chair-tp">
+        </div> -->
+        <!-- <div class="item item-chair-tp">
           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/chair-tp.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-shiba">
+        </div> -->
+        <!-- <div class="item item-shiba">
           <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/shiba.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-fullbody">
+        </div> -->
+        <!-- <div class="item item-fullbody">
           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/fullbody.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-blueshirt">
+        </div> -->
+        <!-- <div class="item item-blueshirt">
           <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/blueshirt.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-mask">
+        </div> -->
+        <!-- <div class="item item-mask">
           <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/mask.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-coffee">
+        </div> -->
+        <!-- <div class="item item-coffee">
           <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/coffee.mp4"
                     type="video/mp4">
           </video>
-        </div>
-        <div class="item item-toby">
+        </div> -->
+        <!-- <div class="item item-toby">
           <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/toby2.mp4"
                     type="video/mp4">
           </video>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -240,10 +240,10 @@
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
+        <!-- <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+        </div> -->
       </div>
     </div>
     <!--/ Paper video. -->
@@ -264,10 +264,10 @@
             Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
             would be impossible without nerfies since it would require going through a wall.
           </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+          <!-- <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
             <source src="./static/videos/dollyzoom-stacked.mp4"
                     type="video/mp4">
-          </video>
+          </video> -->
         </div>
       </div>
       <!--/ Visual Effects. -->
@@ -281,10 +281,10 @@
               As a byproduct of our method, we can also solve the matting problem by ignoring
               samples that fall outside of a bounding box during rendering.
             </p>
-            <video id="matting-video" controls playsinline height="100%">
+            <!-- <video id="matting-video" controls playsinline height="100%">
               <source src="./static/videos/matting.mp4"
                       type="video/mp4">
-            </video>
+            </video> -->
           </div>
 
         </div>
@@ -308,9 +308,10 @@
         </div>
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
+            <iframe src="./static/images/teaser.pdf"
+                    class="interpolation-image"
+                    style="width: 100%; height: 300px; border: none;"
+                    alt="Teaser PDF document."></iframe>
             <p>Start Frame</p>
           </div>
           <div class="column interpolation-video-column">
@@ -322,9 +323,9 @@
                    step="1" min="0" max="100" value="0" type="range">
           </div>
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
+            <!-- <img src="./static/images/interpolate_end.jpg"
                  class="interpolation-image"
-                 alt="Interpolation end reference image."/>
+                 alt="Interpolation end reference image."/> -->
             <p class="is-bold">End Frame</p>
           </div>
         </div>
@@ -340,7 +341,7 @@
           </p>
         </div>
         <div class="content has-text-centered">
-          <video id="replay-video"
+          <!-- <video id="replay-video"
                  controls
                  muted
                  preload
@@ -348,7 +349,7 @@
                  width="75%">
             <source src="./static/videos/replay.mp4"
                     type="video/mp4">
-          </video>
+          </video> -->
         </div>
         <!--/ Re-rendering. -->
 
@@ -391,11 +392,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Sethuraman, Advaith V. and Rucker, Max and Bagoren, Onur and Kung, Pou-Chun and Amutha, Nibarkavi N.B. and Skinner, Katherine A.},
-  title     = {sonarsplat},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@misc{sethuraman2025sonarsplatnovelviewsynthesis,
+      title={SonarSplat: Novel View Synthesis of Imaging Sonar via Gaussian Splatting}, 
+      author={Advaith V. Sethuraman and Max Rucker and Onur Bagoren and Pou-Chun Kung and Nibarkavi N. B. Amutha and Katherine A. Skinner},
+      year={2025},
+      eprint={2504.00159},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.00159}, 
 }</code></pre>
   </div>
 </section>

@@ -4,11 +4,14 @@ This is the repository that contains source code for the [sonarsplat website](ht
 
 If you find sonarsplat useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Sethuraman, Advaith V. and Rucker, Max and Bagoren, Onur and Kung, Pou-Chun and Amutha, Nibarkavi N.B. and Skinner, Katherine A.},
-  title     = {sonarsplat},
-  journal   = {ICCV},
-  year      = {2021},
+@misc{sethuraman2025sonarsplatnovelviewsynthesis,
+      title={SonarSplat: Novel View Synthesis of Imaging Sonar via Gaussian Splatting}, 
+      author={Advaith V. Sethuraman and Max Rucker and Onur Bagoren and Pou-Chun Kung and Nibarkavi N. B. Amutha and Katherine A. Skinner},
+      year={2025},
+      eprint={2504.00159},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.00159}, 
 }
 ```
 
