@@ -1,6 +1,6 @@
 # sonarsplat
 
-This is the repository that contains source code for the [sonarsplat website](https://nerfies.github.io).
+This is the repository that contains source code for the SonarSplat website. 
 
 If you find sonarsplat useful for your work please cite:
 ```
